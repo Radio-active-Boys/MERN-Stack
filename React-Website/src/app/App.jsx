@@ -1,14 +1,14 @@
 import React, { useEffect } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
-import Home from './pages/Home';
-import Work from './pages/Work';
-import Register from './pages/Register';
-import Contact from './pages/Contact';
-import Login from './pages/Log';
-import Logout from './pages/Logou';
-import Error from './pages/Error';
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
+import Home from '../pages/Home';
+import Work from '../pages/Work';
+import Register from '../pages/Register';
+import Contact from '../pages/Contact';
+import Login from '../pages/Log';
+import Logout from '../pages/Logou';
+import Error from '../pages/Error';
  
 
 function App() {

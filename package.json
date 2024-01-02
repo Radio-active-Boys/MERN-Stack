@@ -6,9 +6,9 @@
   "scripts": {
     "install-Backend": "cd Backend && npm install",
     "start-Backend" : "cd Backend && node app.js",
-    "install-_Frontend": "cd React-Website && npm install",
-    "build-_Frontend": "cd React-Website && npm run build",
-    "start-_Frontend": "cd React-Website && npm run dev"
+    "install-React-Website": "cd React-Website && npm install",
+    "build-React-Website": "cd React-Website && npm run build",
+    "start-React-Website": "cd React-Website && npm run dev"
   },
   "keywords": [],
   "author": "",
