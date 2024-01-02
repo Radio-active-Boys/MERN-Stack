@@ -1,0 +1,10 @@
+/* Footer.css */
+.footer-links li a {
+    text-decoration: none; /* Remove underline */
+    color: white; /* Default link color */
+  }
+  
+  .footer-links li a:hover {
+    color: red; /* Link color on hover */
+  }
+  

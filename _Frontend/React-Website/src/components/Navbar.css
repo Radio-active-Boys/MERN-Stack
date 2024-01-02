@@ -1,0 +1,55 @@
+/* Navbar.css */
+
+/* Reset some default styles */
+body, h1, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  header {
+    background-color: #12110b;
+    padding: 10px 0;
+  }
+  
+  .container {
+    background-color: #12110b;
+    display: flex;
+    flex-grow:inherit ;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo-brand a {
+    color: #5659d2; /* Sky blue text */
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: rgb(12, 151, 197); /* Sky blue text */
+    font-weight: bold;
+    font-size: 1rem;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: rgb(128, 73, 0); /* Green hover color */
+    text-decoration: underline; /* Underline on hover */
+  }
+  
