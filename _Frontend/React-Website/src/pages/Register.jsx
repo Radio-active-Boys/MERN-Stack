@@ -39,7 +39,7 @@ const Register = () => {
           console.log(user);
           
           
-          const response = await fetch('http://localhost:5000/mern/main/register',{ 
+          const response = await fetch('https://mern-backend-avo4.onrender.com/mern/main/register',{ 
           method:"POST",
           headers:{
             "Content-Type":"application/json",

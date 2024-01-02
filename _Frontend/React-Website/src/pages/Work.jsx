@@ -6,7 +6,7 @@ const Work = () => {
 
   const fetchWorkData = async () => {
     try {
-      const response = await fetch('http://localhost:5000/mern/main/work', {
+      const response = await fetch('https://mern-backend-avo4.onrender.com/mern/main/work', {
         method: 'GET',
         headers: {
           'Content-Type': 'application/json',

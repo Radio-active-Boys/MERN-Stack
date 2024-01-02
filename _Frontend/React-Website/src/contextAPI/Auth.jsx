@@ -39,7 +39,7 @@ export const AuthProvider = ({children}) => {
     const userAuthentication = async() => {
         try {
             console.log("try to connect with server user route");
-            const response = await fetch("http://localhost:5000/mern/main/user",{
+            const response = await fetch("https://mern-backend-avo4.onrender.com/mern/main/user",{
                 method:"GET",
                 headers: {
                     Authorization:`Bearer ${token}`,
