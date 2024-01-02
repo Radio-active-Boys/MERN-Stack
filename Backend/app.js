@@ -6,7 +6,7 @@ const router = require("./router/router.js");
 const bodyParser = require("body-parser");
 const cors = require('cors')
 const corsOptions = {
-    origin: 'http://localhost:5173',
+    origin: 'https://radioactive.onrender.com',
     methods: "GET,POST,DELETE,PUT,PATCH,HEAD",
     credentials: true,     
   };
